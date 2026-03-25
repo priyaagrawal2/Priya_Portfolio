@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya | Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <header id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Priya</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="ph ph-list"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="hero section">
+            <div class="hero-container">
+                <p class="greeting reveal-up">Hi, my name is</p>
+                <h1 class="reveal-up delay-1">Priya</h1>
+                <h2 class="gradient-text reveal-up delay-2">I build intelligent solutions.</h2>
+                <p class="hero-desc reveal-up delay-3">
+                    I'm a Computer Science undergraduate specializing in Data Structures, Algorithms, and Software
+                    Development. I love crafting exceptional digital experiences and scalable applications.
+                </p>
+                <div class="hero-cta reveal-up delay-4">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="priya_generalcv.pdf" download class="btn btn-outline">
+                        <i class="ph ph-download-simple"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about section fade-in">
+            <div class="section-heading">
+                <h2><span class="mono-num">01.</span> About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content glass-card">
+                <p>
+                    Hello! I am a passionate Computer Science student who enjoys solving complex problems. My interest
+                    in technology started with understanding how applications work behind the scenes, leading me to
+                    explore everything from intricate algorithms to end-to-end web development.
+                </p>
+                <p>
+                    Today, I focus on building efficient, scalable, and beautifully designed user experiences. I thrive
+                    on creating solutions that make a real impact.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="projects section fade-in">
+            <div class="section-heading">
+                <h2><span class="mono-num">02.</span> Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card glass-card fade-up">
+                    <div class="project-top">
+                        <i class="ph ph-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/priyaagrawal2/Crossword_filler" target="_blank"
+                                aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Crossword Filler AI Tool</h3>
+                    <div class="project-desc">
+                        <p>Built an AI-based crossword solver using backtracking and constraint satisfaction. Optimized
+                            pattern matching to generate efficient and accurate word placements.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card fade-up delay-1">
+                    <div class="project-top">
+                        <i class="ph ph-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/priyaagrawal2/Myntra_Dashboard" target="_blank"
+                                aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Myntra Sales Dashboard</h3>
+                    <div class="project-desc">
+                        <p>Developed an interactive dashboard for analyzing sales data with dynamic visualizations,
+                            KPIs, and automated reports to drive strategic business decisions.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Excel</li>
+                        <li>Python</li>
+                        <li>Pandas</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card fade-up delay-2">
+                    <div class="project-top">
+                        <i class="ph ph-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/priyaagrawal2/Gardening_Chatbot.github.io" target="_blank"
+                                aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Gardening Chatbot</h3>
+                    <div class="project-desc">
+                        <p>Designed an AI chatbot that provides crop recommendations based on seasonal and environmental
+                            data using external API integrations.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>NLP</li>
+                    </ul>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card fade-up delay-3">
+                    <div class="project-top">
+                        <i class="ph ph-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/priyaagrawal2/Python_CA2" target="_blank" aria-label="GitHub"><i
+                                    class="ph ph-github-logo"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Evolution Data Analysis using Python</h3>
+                    <div class="project-desc">
+                        <p>Performed data analysis on an evolution-based dataset using Python to extract meaningful
+                            insights and identify patterns. Utilized libraries like NumPy and Matplotlib (Pyplot) for
+                            data processing, visualization, and trend analysis. Created various graphs including line
+                            plots, bar charts, and scatter plots to represent evolutionary trends and relationships
+                            effectively. Applied data cleaning and transformation techniques to ensure accurate and
+                            reliable analysis.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills section fade-in">
+            <div class="section-heading">
+                <h2><span class="mono-num">03.</span> Core Skills</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-container glass-card">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Frameworks & Web</h3>
+                    <div class="tags">
+                        <span class="tag">Flask</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">React</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Tools & Tech</h3>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="certifications section fade-in">
+            <div class="section-heading">
+                <h2><span class="mono-num">04.</span> Certifications</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="certs-list">
+                <div class="cert-item glass-card hover-glow">
+                    <div class="cert-info">
+                        <i class="ph ph-certificate text-gradient"></i>
+                        <span>NPTEL: Cloud Computing</span>
+                    </div>
+                    <a href="https://drive.google.com/file/d/11MyupE3Yay__U3uMhaoKusijN6kU6pSp/view?usp=sharing"
+                        target="_blank" class="btn btn-outline cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-item glass-card hover-glow">
+                    <div class="cert-info">
+                        <i class="ph ph-certificate text-gradient"></i>
+                        <span>Master Generative AI and Generative AI tools</span>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1iEqgd-9ihIl1Q-hn3SA0pSmjdbjNr7j2/view?usp=sharing"
+                        target="_blank" class="btn btn-outline cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-item glass-card hover-glow">
+                    <div class="cert-info">
+                        <i class="ph ph-certificate text-gradient"></i>
+                        <span>Placement Programming (C++, DSA, Python)</span>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1z9Zwacg2aE5rdMfdogv-Q8SI0cMtsLmz/view?usp=sharing"
+                        target="_blank" class="btn btn-outline cert-btn">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="education section fade-in">
+            <div class="section-heading">
+                <h2><span class="mono-num">05.</span> Education</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h4>Lovely Professional University</h4>
+                        <h5>B.Tech - Computer Science and Engineering</h5>
+                        <span class="date">Since 2023 | CGPA: 7.54</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h4>Baba Mungipa Vidya Peeth Sr. Sec. School</h4>
+                        <h5>Intermediate (12th)</h5>
+                        <span class="date">Achieved: 79%</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h4>Baba Mungipa Vidya Peeth Sr. Sec. School</h4>
+                        <h5>Matriculation (10th)</h5>
+                        <span class="date">Achieved: 92%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact section fade-in">
+            <div class="contact-card glass-card text-center">
+                <h2 class="contact-title"><span class="mono-num">06.</span> What's Next?</h2>
+                <h3 class="gradient-text">Get In Touch</h3>
+                <p>I'm currently looking for new opportunities. Whether you have a question, a project idea, or just
+                    want to say hi, my inbox is always open!</p>
+                <div class="contact-info">
+                    <a href="mailto:priyaagarwal1704@gmail.com" class="contact-pill">
+                        <i class="ph ph-envelope-simple"></i>
+                        priyaagarwal1704@gmail.com
+                    </a>
+                    <a href="tel:+918059675655" class="contact-pill">
+                        <i class="ph ph-phone"></i>
+                        +91-8059675655
+                    </a>
+                </div>
+                <form action="mailto:priyaagarwal1704@gmail.com" method="POST" enctype="text/plain" class="contact-form mt-4">
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary form-btn">Send Message <i class="ph ph-paper-plane-tilt"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/priyaagrawal2" target="_blank" aria-label="GitHub"><i
+                    class="ph ph-github-logo"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        </div>
+        <p>Designed & Built by Priya</p>
+        <p class="copyright">© 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
